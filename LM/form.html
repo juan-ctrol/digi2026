@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <form method="get" action="http://localhost:8080/form/submit"></form>
+    <label for="Nomb">Nombre:</label><input type="text" id="Nomb" name="nombre" size="10" maxlength="15" pattern="[A-Z]"  value="Juan"/><br>
+    <label for="ape">Apellido:</label><label for="Ape"></label><input type="text" id="Ape" name="apellido" size="15" maxlength="15" value="Camacho"/><br>
+    <label for="col"></label><input type="color" id="col" name="color" size="10" maxlength="15" value="#db1f1f"/><br>
+    <label for="date">fecha de nacimiento</label><input type="date" id="date" name="date" min="1970-01-01" max="2001-01-01" value="1970-01-01"/><br>
+    <label for="cinfo"></label><input type="checkbox" id="cinfo" name="info" /><br>
+    <input type="submit" value="Enviar"/>
+   <label>Sexo:</label><label>
+    <input type="radio" name="uno"/>
+</label>Hombre
+    <label>
+        <input type="radio" name="dos"/>
+    </label>Mujer
+</form>
+</body>
+</html>

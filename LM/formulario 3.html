@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    th{
+
+    }
+</style>
+<body>
+<h1><b>Formulario de Notas</b></h1>
+<form action="guardar.html" method="get"></form>
+<label for="Nomb">Nombre: </label><input type="text" name="taomb" id="Nomb" maxlength="30" required/><br>
+<label for="Apel">Apellido: </label><input type="text" name="tapellido" id="Apel" maxlength="30" required/><br>
+<label for="tfeha">Fecha: </label><input type="date" name="Fecha" id="tfeha" min="2023-09-1" max="2024-06-5" /><br>
+<table>
+    <thead>
+    <tr><th>Asignatura</th>
+    <td>Nota</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr><th>
+        <input type="number" name="nota1">
+        <select name="Asignatura1">
+            <option value="1">Lenguaje de marcas</option>
+            <option value="2">Programacion</option>
+            <option value="3">Bases de datos</option>
+        </select>
+    </th>
+    </tr>
+    <th><input type="number" name="nota2">
+        <select name="Asignatura2">
+            <option value="1">Lenguaje de marcas</option>
+            <option value="2">Programacion</option>
+            <option value="3">Bases de datos</option>
+        </select>
+    </th><th>
+        <input type="number" name="nota3"/>
+    </th>
+    </tbody>
+</table>
+<input type="submit" value="Guardar"/>
+</body>
+</html>
